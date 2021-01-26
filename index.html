@@ -1,7 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html land="en">
+<head>           
+     <!-- fonts -->
+    <link href="https://allfont.net/allfont.css?fonts=bad-mofo" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.net/allfont.css?fonts=pt-mono" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.net/allfont.css?fonts=miama" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.net/allfont.css?fonts=bowlby-one-sc" rel="stylesheet" type="text/css" />
+    <!-- fonts end-->
+ 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- patch -->
+
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>    
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+                                    <!-- Navbar section -->
+    <nav id="navbar">
+        <div class="full-wrapper">
+            <!-- Logo -->
+            <div class="nav-logo-wrap local-scroll">
+                <a class="logo" href="#home-section">DK</a>
+            </div>
+
+            <!-- Main Menu -->
+            <div class="inner-nav">
+                <a class="page-scroll" href="#about-section" id="about-btn">About</a>
+                <a class="page-scroll" href="#portfolio-section" id="portfolio-btn">Portfolio</a>
+                <a class="page-scroll" href="#contact-section" id="contact-btn">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+                                    <!-- Home section -->
+
+    <header id="home-section">
+        <div id="home-container">
+            <div class="text-container">
+                <div id="first-line">
+                    <p id="name" data-js="typing">.darina-kukarina</p>
+                    <p id="up-curly" data-js="typing">{</p>
+                </div>
+
+                <div id="second-line">
+                    <p class="big-pink" data-js="typing">F</p>
+                    <p data-js="typing">ront end developer</p>
+                </div>
+            
+                <div id="third-line">
+                    <p id="and" data-js="typing">&</p>
+                    <p class="big-pink" data-js="typing">W</p>
+                    <p data-js="typing">eb</p>
+                    <p data-js="typing" id="designer">designer</p>
+
+                </div>
+
+                <p id="down-curly" data-js="typing">}</p>
+            </div>
+
+             <!-- avatar -->
+            <div class="wave_bg">
+                <div class="wave-01"></div>
+                <div class="wave-02"></div>
+                <div class="wave-03"></div>
+                <div><img src="avatar.png" class="avatar"></div>
+            </div>
+
+        </div>
+
+
+        <div class="two-buttons">
+            <a class="button" href="#about">About</a>
+            <a class="button" href="#portfolio" id="projects-btn">Projects</a>
+        </div>
+        </div>
+
+  
+        <div class="triangle first"></div>
+        <div class="triangle second"></div>
+    </header>
+ 
+
+
+
+
+                                        <!-- About section -->
+<h id="about-section"></h> 
+    <section>
+        <h1 class="h-open">about</h1><!-- Angle brackets	 -->
+        <div id="about-container">
+            <h3 data-aos="fade-right">
+                I have artistic vision and analytical mind. 
+                I'm passionate about front-end and webdesign.
+                I like to learn new things and developprofessional skills.
+            </h3>
+            <img src="aboard.png" alt="Italian Trulli" id="aboard">
+        </div>
+        <h1 class="h-close-about">/about</h1><!-- Angle brackets	 -->
+    </section>
+
+
+
+
+                                    <!-- Portfolio section -->
+<h id="portfolio-section"></h> 
+    <section >
+        <h1 class="h-open">portfolio</h1><!-- Angle brackets -->
+        <div id="project-container">
+            <h2 class="rotation">Check out my projects!</h2>
+
+            <div class="projects"  data-aos="flip-right"><!-- Projects -->
+                <div class="work-ex" style="background-image: url('unlearning.png');">
+                    <span class="hidden-up">
+                        <div class="inner-links-container">
+                            <h4>Unlearning</h4>
+                            <a class="portfolio-links" href="https://www.linkedin.com/in/darina-kukarina/">Click here to visit<br> </a>
+                        </div>
+                        a web-site for people who like to learn.
+                        Users can choose between article, video, and podcast
+                        formats. <br>Figma, HTML5, CSS3, Ruby on Rails 6.
+                    </span>
+                </div>
+
+                <div class="work-ex" style="background-image: url('carcnc.png');">  
+                    <span class="hidden-up">
+                        <div class="inner-links-container">
+                            <h4>CarCNC</h4>
+                            <a class="portfolio-links" href="https://github.com/DarinaKukarina42/CARCnC/">Click here to visit<br> </a>
+                        </div>
+                        a clone of AirBNB where people can rent or
+                        host a car. <br>JavaScript ES6, Figma, HTML5, CSS3, Ruby on Rails 6.    
+                    </span>
+                </div>
+                
+                <div class="work-ex" style="background-image: url('unlearningex.png');">  
+                    <span class="hidden-down">
+                        <div class="inner-links-container">
+                            <h4>Unlearning figma</h4>
+                            <a class="portfolio-links" href="https://www.figma.com/file/MhIVsZjHo2ggdXGgPOKRID/Unlearning_new?node-id=0%3A1">Click here to visit<br> </a>
+                        </div>
+                            See how Unlearning project was build
+                    </span>
+                </div>
+                
+                <div class="work-ex" style="background-image: url('carcncfigmaex.png');">  
+                    <span class="hidden-down">
+                        <div class="inner-links-container">
+                            <h4>CarCNC figma</h4>
+                            <a class="portfolio-links" href="https://www.figma.com/file/mlURwfXJtk2CDZuod0RODd/CARCNC?node-id=0%3A1/">Click here to visit<br> </a>
+                        </div>
+                            See how CarCNC project was build
+                    </span>
+                </div>
+            </div>
+        </div>
+        <h1 class="h-close-portfolio">/portfolio</h1><!-- Angle brackets	 -->
+
+    </section>
+
+
+
+
+
+                                    <!-- Contact section -->
+
+    <section id="contact-section">
+
+        <h1 class="h-open">contact</h1><!-- Angle brackets	 -->
+
+        <h2 class="rotation">Let's keep in touch!</h2>
+
+        <!-- Contacts -->
+        <div id="contact-links-container">
+        <div style="background-image: url('contact-buttons.png');" class="contact-links"  data-aos="slide-up">
+            
+            <div class="links" id="linkedin"> <!-- Linkedin -->
+                <span class="links-text">
+                    <a href="https://www.linkedin.com/in/darina-kukarina/" id="linkedin-link" >
+                        https://www.linkedin.com/in/darina-kukarina/
+                    </a>
+                </span>
+            </div>
+            
+            <div class="links" id="gmail"> <!-- Gmail -->
+                <span class="links-text">
+                    <a href="mailto:darinakukarina42@gmail.com" id="gmail-link">
+                        kukarina.darina42@gmail.com
+                    </a>
+                </span>
+            </div>
+            
+            <div class="links" id="phone"> <!-- Phone -->
+                <span class="links-text" ><h5>+1 (514) 217 7278</h5></span>
+            </div>
+        </div>
+    </div>
+        <h1 class="h-close">/contact</h1><!-- Angle brackets	 -->
+    </section>
+
+
+
+
+
+    <!-- Pages -->
+    <script src="typing.js"></script>
+    <script src="scroll.js"></script>
+    
+    <!-- Other -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
