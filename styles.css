@@ -10,7 +10,7 @@ body {
 /* fonts */
 
 p {
-  font-family: 'Bungee Outline', 
+  font-family: 'Bungee Inline', cursive;
   cursive;  font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -79,7 +79,7 @@ h3::after {
 
 
 h4 {
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Bungee Inline', cursive;
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
@@ -165,7 +165,7 @@ nav.scroll {
 
 .page-scroll {
   text-decoration: none;
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Bungee Inline', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
@@ -508,7 +508,7 @@ span {
 }
 
 #project-container .rotation {
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Bungee Inline', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 45px;
@@ -636,7 +636,7 @@ span {
 /* contact-section */
 
 .rotation {
-  font-family: 'Bungee Outline', cursive;
+  font-family: 'Bungee Inline', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 45px;
